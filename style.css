@@ -3,24 +3,23 @@ body {
 }
 
 #container {
-    background-color: yellow;
+    background-color: grey;
     width: 600px;
     height: 600px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    color: red;
+    color: white;
     font-family: Arial;
     font-style: italic;
 }
 
-#title {
-    float: right;
+#floating-text-container {
+    position: relative;
+    top: -600px;
     width: 210px;
-    border-top: 5px solid red;
-    border-bottom: 5px solid red;
-    text-align: center;
-    margin: 17px 20px;
+    float: right;
+    margin: 20px;
 }
 
 h1 {
@@ -28,10 +27,41 @@ h1 {
     margin: 10px 0 10px 0;
 }
 
+.bar {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.bar-contents {
+    text-align: right;
+}
+
+.title {
+    float: right;
+    width: 210px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+#quotes {
+    position: relative;
+    top: 255px;
+    height: 150px;
+}
+
 li {
     list-style: none;
 }
 
 video {
-    width: 600px;   
+    width: 600px;
+    opacity: 0.6;
 }
