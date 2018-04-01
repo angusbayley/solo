@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: Work Sans;
 }
 
 #container {
@@ -11,7 +12,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    font-family: Arial;
     font-style: italic;
 }
 
@@ -24,7 +24,6 @@ body {
 }
 
 h1 {
-    font-family: Arial;
     margin: 10px 0 10px 0;
 }
 
@@ -40,7 +39,7 @@ h1 {
 
 .title {
     float: right;
-    width: 210px;
+    width: 220px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     text-align: center;
