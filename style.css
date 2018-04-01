@@ -46,17 +46,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-.quote {
-    font-size: 0.9em;
-    margin-bottom: 20px;
-}
-
-#quotes {
-    position: relative;
-    top: 255px;
-    height: 150px;
-}
-
 li {
     list-style: none;
 }
