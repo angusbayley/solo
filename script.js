@@ -3,15 +3,16 @@ window.onload = function() {
 }
 
 addVideoClickListener = function() {
-    video = document.getElementById('video')
-    video.addEventListener("click", toggleAudio)
+    overlay = document.getElementById('container-overlay')
+    overlay.addEventListener("click", toggleAudio)
 
-    video.onmouseover = function(){showText()}
-    video.onmouseout = function(){hideText()}
+    overlay.onmouseover = function(){showText()}
+    overlay.onmouseout = function(){hideText()}
 }
 
 toggleAudio = function(e) {
-    e.target.muted = !e.target.muted
+    video = document.getElementById('video')
+    video.muted = !video.muted
 }
 
 showText = function() {
