@@ -1,18 +1,29 @@
 window.onload = function() {
+    addVideoHoverListener()
     addVideoClickListener()
 }
 
-addVideoClickListener = function() {
-    overlay = document.getElementById('container-overlay')
-    overlay.addEventListener("click", toggleAudio)
+addVideoHoverListener = function() {
+    containerElements = document.getElementsByClassName("mouseover-toggle")
+    for (var i=0; i<containerElements.length; i++) {
+        containerElements[i].onmouseover = function(){showText()}
+        containerElements[i].onmouseout = function(){hideText()}
+    }
+}
 
-    overlay.onmouseover = function(){showText()}
-    overlay.onmouseout = function(){hideText()}
+addVideoClickListener = function() {
+    container = document.getElementById("container")
+    container.addEventListener("click", toggleAudio)
 }
 
 toggleAudio = function(e) {
-    video = document.getElementById('video')
-    video.muted = !video.muted
+    console.log('toggleAudio called')
+    
+    // ignore link clicks so opening in new bg tab doesn't stop audio:
+    if (e.srcElement.nodeName !== "A") {
+        video = document.getElementById('video')
+        video.muted = !video.muted
+    }
 }
 
 showText = function() {
