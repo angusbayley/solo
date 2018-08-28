@@ -3,6 +3,11 @@ body {
     font-family: Work Sans;
 }
 
+a {
+    font-style: underline;
+    color: white;
+}
+
 #container {
     position: relative;
     background-color: grey;
@@ -30,8 +35,39 @@ body {
     position: relative;
     top: -600px;
     width: 240px;
+    height: 568px;
     float: right;
     margin: 20px;
+}
+
+#social-bar {
+    position: absolute;
+    bottom: 0px;
+    font-size: 0.8em;
+    font-style: normal;
+    display: flex;
+    width: 100%;
+}
+
+#insta {
+    width: 37%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#youtube {
+    width: 27%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#soundcloud {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 h1 {
