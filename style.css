@@ -103,6 +103,18 @@ h1 {
     visibility: hidden;
 }
 
+#new-video-image-container {
+    height: 100px;
+}
+
+#new-video-image {
+    position: absolute;
+    right: 23px;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+}
+
 li {
     list-style: none;
     padding-top: 10px;
