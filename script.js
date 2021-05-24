@@ -12,7 +12,7 @@ addVideoHoverListener = function() {
 }
 
 addVideoClickListener = function() {
-    container = document.getElementById("container")
+    container = document.getElementsByClassName("container")[0]
     container.addEventListener("click", toggleAudio)
 }
 
@@ -21,17 +21,17 @@ toggleAudio = function(e) {
     
     // ignore link clicks so opening in new bg tab doesn't stop audio:
     if (e.srcElement.nodeName !== "A") {
-        video = document.getElementById('video')
+        video = document.getElementsByClassName('video')[0]
         video.muted = !video.muted
     }
 }
 
 showText = function() {
-    toggleText = document.getElementById('toggle-text')
+    toggleText = document.getElementsByClassName('toggle-text')[0]
     toggleText.style.visibility = 'visible'
 }
 
 hideText = function() {
-    toggleText = document.getElementById('toggle-text')
+    toggleText = document.getElementsByClassName('toggle-text')[0]
     toggleText.style.visibility = 'hidden'
 }

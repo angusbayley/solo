@@ -9,7 +9,7 @@ a {
     color: white;
 }
 
-#container {
+.container {
     position: relative;
     background-color: grey;
     width: 600px;
@@ -21,7 +21,7 @@ a {
     font-style: italic;
 }
 
-#container-overlay {
+.container-overlay {
     position: relative;
     background-color: grey;
     width: 600px;
@@ -32,7 +32,7 @@ a {
     opacity: 0;
 }
 
-#floating-text-container {
+.floating-text-container {
     position: relative;
     top: -600px;
     width: 240px;
@@ -41,7 +41,7 @@ a {
     margin: 20px;
 }
 
-#social-bar {
+.social-bar {
     position: absolute;
     bottom: 0px;
     font-size: 0.8em;
@@ -50,21 +50,21 @@ a {
     width: 100%;
 }
 
-#insta {
+.insta {
     width: 37%;
     margin: 0;
     padding: 0;
     text-align: right;
 }
 
-#youtube {
+.youtube {
     width: 27%;
     margin: 0;
     padding: 0;
     text-align: right;
 }
 
-#soundcloud {
+.soundcloud {
     flex: 1;
     margin: 0;
     padding: 0;
@@ -95,7 +95,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#toggle-text {
+.toggle-text {
     position: absolute;
     height: 13px;
     bottom: 0px;
@@ -105,11 +105,11 @@ h1 {
     visibility: hidden;
 }
 
-#new-video-image-container {
+.new-video-image-container {
     height: 100px;
 }
 
-#new-video-image {
+.new-video-image {
     position: absolute;
     right: 23px;
     bottom: 20px;
