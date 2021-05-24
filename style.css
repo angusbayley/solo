@@ -1,6 +1,7 @@
 body {
     background-color: white;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 a {
@@ -72,6 +73,7 @@ a {
 
 h1 {
     margin: 10px 0 10px 0;
+    font-weight: 500;
 }
 
 .bar {
