@@ -21,17 +21,6 @@ a {
     font-style: italic;
 }
 
-.container-overlay {
-    position: relative;
-    background-color: grey;
-    width: 600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    top: -600px;
-    opacity: 0;
-}
-
 .floating-text-container {
     position: relative;
     top: -600px;

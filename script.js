@@ -17,8 +17,6 @@ addVideoClickListener = function() {
 }
 
 toggleAudio = function(e) {
-    console.log('toggleAudio called')
-    
     // ignore link clicks so opening in new bg tab doesn't stop audio:
     if (e.srcElement.nodeName !== "A") {
         video = document.getElementsByClassName('video')[0]
