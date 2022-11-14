@@ -49,34 +49,14 @@ a {
     }
 }
 
-.social-bar {
+.links-bar {
     position: absolute;
     bottom: 0px;
     font-size: 0.8em;
     font-style: normal;
     display: flex;
+    justify-content: space-between;
     width: 100%;
-}
-
-.insta {
-    width: 37%;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
-
-.youtube {
-    width: 27%;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
-
-.soundcloud {
-    flex: 1;
-    margin: 0;
-    padding: 0;
-    text-align: right;
 }
 
 h1 {
@@ -131,6 +111,7 @@ li {
 }
 
 video {
+    height: 600px;
     width: 600px;
     opacity: 0.7;
 }
